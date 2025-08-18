@@ -7,6 +7,23 @@ import { quiz2 } from './components/Internet/quiz2quetions';
 import { quiz3 } from './components/Internet/quiz3quetions';
 import { quiz4 } from  './components/Internet/quiz4quetions';
 import { quiz5 } from  './components/Internet/quiz5quetions';
+import { quiz11} from './components/computerfoundamentals/quiz1'
+import { quiz13} from './components/computerfoundamentals/quiz3'
+import { quiz14} from './components/computerfoundamentals/quiz4'
+import { quiz15} from './components/computerfoundamentals/quiz5'
+
+import { quiz17} from './components/computerfoundamentals/quiz7'
+
+
+
+
+
+
+
+
+import { quiz12 } from './components/computerfoundamentals/quiz2';
+
+
 
 
 
@@ -24,6 +41,17 @@ function App() {
     'Internet pdf 3': quiz3,
     'Internet pdf 4': quiz4,
     'Internet pdf 5': quiz5,
+    'Computer Foundamental pdf 1': quiz11,
+    'computer Foundamental pdf 2': quiz12,
+    'computer Foundamental pdf 3': quiz13,
+    'computer Foundamental pdf 4': quiz14,
+    'computer Foundamental pdf 5': quiz15,
+    // 'computer Foundamental pdf 6': quiz16,
+    'Computer Foundamental pdf 7': quiz17,
+    // 'Computer Foundamental pdf 8': quiz18,
+
+    
+
 
 
   };
@@ -62,7 +90,7 @@ function App() {
                 className="quiz-option"
               >
                 {quizName}
-                <p className="quiz-description">{quizzes[quizName].questions.length} questions</p>
+                {/* <p className="quiz-description">{quizzes[quizName].questions.length} questions</p> */}
               </button>
             ))}
           </div>
