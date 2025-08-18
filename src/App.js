@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './style.css';
-import { quiz1 } from './components/quiz1quetions';
-import { quiz2 } from './components/quiz2quetions';
-import { quiz3 } from './components/quiz3quetions';
+import { quiz1 } from './components/Internet/quiz1quetions';
+import { quiz2 } from './components/Internet/quiz2quetions';
+import { quiz3 } from './components/Internet/quiz3quetions';
+import { quiz4 } from  './components/Internet/quiz4quetions';
+import { quiz5 } from  './components/Internet/quiz5quetions';
+
+
+
 
 function App() {
   const [quizCompleted, setQuizCompleted] = useState(false);
@@ -16,7 +21,11 @@ function App() {
   const quizzes = {
     'Internet pdf 1': quiz1,
     'Internet pdf 2': quiz2,
-    'Internet pdf 3': quiz3
+    'Internet pdf 3': quiz3,
+    'Internet pdf 4': quiz4,
+    'Internet pdf 5': quiz5,
+
+
   };
 
   const startQuiz = (quizKey) => {

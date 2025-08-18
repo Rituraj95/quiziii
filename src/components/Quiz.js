@@ -21,7 +21,13 @@ function Quiz({ questions, completeQuiz }) {
   const handleNextQuestion = () => {
     if (selectedOption !== null) {
       const isCorrect = selectedOption === questions[currentQuestion].answer;
-      const newScore = isCorrect ? score + 1 : score;
+      let newScore = score;
+      
+      if (isCorrect) {
+        newScore = score + 1; // Add 1 for correct answer
+      } else {
+        newScore = score - 0.25; // Deduct 0.25 for wrong answer
+      }
       
       const updatedUserAnswers = [...userAnswers];
       updatedUserAnswers[currentQuestion] = {
