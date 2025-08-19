@@ -31,8 +31,8 @@ export const quiz11 = {
         "Kibbit",
         "Kibbyte"
       ],
-      answer: 2,
-      explanation: "The notes mention that 'kb' stands for 'Kibbit'."
+      answer: 0,
+      explanation: "The notes mention that 'kb' stands for 'Kilobit'."
     },
     {
       question: "What is the difference between update and upgrade in software?",

@@ -11,8 +11,15 @@ import { quiz11} from './components/computerfoundamentals/quiz1'
 import { quiz13} from './components/computerfoundamentals/quiz3'
 import { quiz14} from './components/computerfoundamentals/quiz4'
 import { quiz15} from './components/computerfoundamentals/quiz5'
-
 import { quiz17} from './components/computerfoundamentals/quiz7'
+import { quiz21} from './components/database/quiz1'
+import { quiz22} from './components/database/quiz2'
+import { quiz23} from './components/database/quiz3'
+import { quiz24} from './components/database/quiz4'
+import { quiz25} from './components/database/quiz5'
+
+
+
 
 
 
@@ -44,11 +51,17 @@ function App() {
     'Computer Foundamental pdf 1': quiz11,
     'computer Foundamental pdf 2': quiz12,
     'computer Foundamental pdf 3': quiz13,
-    'computer Foundamental pdf 4': quiz14,
-    'computer Foundamental pdf 5': quiz15,
+    'Computer Foundamental pdf 4': quiz14,
+    'Computer Foundamental pdf 5': quiz15,
     // 'computer Foundamental pdf 6': quiz16,
     'Computer Foundamental pdf 7': quiz17,
     // 'Computer Foundamental pdf 8': quiz18,
+    'DBMS pdf 1':quiz21,
+    'DBMS pdf 2':quiz22,
+    'DBMS pdf 3':quiz23,
+    'DBMS pdf 4':quiz24,
+    'DBMS pdf 5':quiz25
+
 
     
 
@@ -77,7 +90,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>RRB PO/CLERK MAINS COMPUTER AWARENESS</h1>
+      <h1>RRB PO/CLERK CA</h1>
       
       {!selectedQuiz ? (
         <div className="quiz-selection">
