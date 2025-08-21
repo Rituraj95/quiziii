@@ -17,6 +17,8 @@ import { quiz22} from './components/database/quiz2'
 import { quiz23} from './components/database/quiz3'
 import { quiz24} from './components/database/quiz4'
 import { quiz25} from './components/database/quiz5'
+import { quizL1} from './components/lucent/quiL1'
+
 
 
 
@@ -60,7 +62,9 @@ function App() {
     'DBMS pdf 2':quiz22,
     'DBMS pdf 3':quiz23,
     'DBMS pdf 4':quiz24,
-    'DBMS pdf 5':quiz25
+    'DBMS pdf 5':quiz25,
+
+    'LUCENT COMPUTER INTRODUCTION MCQ':quizL1
 
 
     
