@@ -64,7 +64,7 @@ function App() {
     'DBMS pdf 4':quiz24,
     'DBMS pdf 5':quiz25,
 
-    'LUCENT COMPUTER INTRODUCTION MCQ':quizL1
+    'LUCENT BANK PYQ ':quizL1
 
 
     
