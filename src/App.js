@@ -17,7 +17,7 @@ import { quiz22} from './components/database/quiz2'
 import { quiz23} from './components/database/quiz3'
 import { quiz24} from './components/database/quiz4'
 import { quiz25} from './components/database/quiz5'
-import { quizL1} from './components/lucent/quiL1'
+import { quizL1} from './components/LUCENT/quizL1'
 
 
 
